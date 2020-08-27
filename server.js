@@ -3,6 +3,7 @@ const morgan = require('morgan');
 const bodyParser = require('body-parser');
 const axios = require("axios");
 
+const aws = require('aws-sdk');
 
 const cors = require('cors');
 const routes = require('./routes');
