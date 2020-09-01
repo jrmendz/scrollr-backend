@@ -18,15 +18,15 @@ const verifyLeague = async (seasonId, leagueId) => {
  * Display League Team Name
  * Returns league info if valid, otherwise null
  */
-const displayLeagueName = async (seasonId, leagueId) => {
-  try {
-    const espnClient = new Client({ leagueId });
-    const league = await espnClient.getLeagueInfo({ seasonId });
-    console.log(league.leagueInfo.name)
-  } catch (error) {
-    return null
-  }
-}
+// const displayLeagueName = async (seasonId, leagueId) => {
+//   try {
+//     const espnClient = new Client({ leagueId });
+//     const league = await espnClient.getLeagueInfo({ seasonId });
+//     console.log(league.leagueInfo.name)
+//   } catch (error) {
+//     return null
+//   }
+// }
 
 /**
  * Display League Team Name
