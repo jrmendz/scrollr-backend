@@ -139,7 +139,7 @@ router.get('/test', async (req, res) => {
 		roster: []
 	}));
 
-	// this for players being dropped // free agents ganern k :D
+	// this for players being dropped // free agents
 	let activityArray = [];
 
 	const response = await axios.get(`${url}?view=kona_league_communication`, {
